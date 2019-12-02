@@ -1,6 +1,5 @@
 package com.chang.algorithm.hanshunping_data_structure.stack;
 
-import org.junit.Test;
 
 import java.util.Scanner;
 
