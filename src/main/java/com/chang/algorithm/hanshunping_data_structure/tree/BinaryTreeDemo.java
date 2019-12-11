@@ -6,11 +6,11 @@ public class BinaryTreeDemo {
     public static void main(String[] args) {
         //先需要创建一颗二叉树
         //创建需要的结点
-        HeroNode root = new HeroNode(1, "宋江");
-        HeroNode node2 = new HeroNode(2, "吴用");
-        HeroNode node3 = new HeroNode(3, "卢俊义");
-        HeroNode node4 = new HeroNode(4, "林冲");
-        HeroNode node5 = new HeroNode(5, "关胜");
+        com.chang.algorithm.hanshunping_data_structure.tree.HeroNode root = new com.chang.algorithm.hanshunping_data_structure.tree.HeroNode(1, "宋江");
+        com.chang.algorithm.hanshunping_data_structure.tree.HeroNode node2 = new com.chang.algorithm.hanshunping_data_structure.tree.HeroNode(2, "吴用");
+        com.chang.algorithm.hanshunping_data_structure.tree.HeroNode node3 = new com.chang.algorithm.hanshunping_data_structure.tree.HeroNode(3, "卢俊义");
+        com.chang.algorithm.hanshunping_data_structure.tree.HeroNode node4 = new com.chang.algorithm.hanshunping_data_structure.tree.HeroNode(4, "林冲");
+        com.chang.algorithm.hanshunping_data_structure.tree.HeroNode node5 = new com.chang.algorithm.hanshunping_data_structure.tree.HeroNode(5, "关胜");
 
         //说明，我们先手动创建该二叉树，后面我们学习递归的方式创建二叉树
         root.setLeft(node2);
