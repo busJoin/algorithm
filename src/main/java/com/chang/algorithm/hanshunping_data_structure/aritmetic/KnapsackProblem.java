@@ -1,4 +1,4 @@
-package com.chang.algorithm.hanshuping_designPatterns;
+package com.chang.algorithm.hanshunping_data_structure.aritmetic;
 
 public class KnapsackProblem {
     public static void main(String[] args) {
