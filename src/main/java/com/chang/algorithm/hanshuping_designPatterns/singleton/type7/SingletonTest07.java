@@ -1,5 +1,7 @@
 package com.chang.algorithm.hanshuping_designPatterns.singleton.type7;
 
+import org.omg.SendingContext.RunTime;
+
 public class SingletonTest07 {
     public static void main(String[] args) {
         System.out.println("使用静态内部类完成单例模式");
