@@ -1,9 +1,9 @@
-package com.chang.algorithm.hanshuping_designPatterns.absfactory.simplefactory.pizzastore.order;
+package com.chang.algorithm.hanshuping_designPatterns.facotry.simplefactory.pizzastore.order;
 
-import com.chang.algorithm.hanshuping_designPatterns.absfactory.simplefactory.pizzastore.pizza.CheesePizza;
-import com.chang.algorithm.hanshuping_designPatterns.absfactory.simplefactory.pizzastore.pizza.GreekPizza;
-import com.chang.algorithm.hanshuping_designPatterns.absfactory.simplefactory.pizzastore.pizza.PepperPizza;
-import com.chang.algorithm.hanshuping_designPatterns.absfactory.simplefactory.pizzastore.pizza.Pizza;
+import com.chang.algorithm.hanshuping_designPatterns.facotry.simplefactory.pizzastore.pizza.CheesePizza;
+import com.chang.algorithm.hanshuping_designPatterns.facotry.simplefactory.pizzastore.pizza.GreekPizza;
+import com.chang.algorithm.hanshuping_designPatterns.facotry.simplefactory.pizzastore.pizza.PepperPizza;
+import com.chang.algorithm.hanshuping_designPatterns.facotry.simplefactory.pizzastore.pizza.Pizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package com.chang.algorithm.hanshuping_designPatterns.absfactory.pizzastore.pizza;
+package com.chang.algorithm.hanshuping_designPatterns.facotry.absfactory.pizzastore.pizza;
 
 public class BJPepperPizza extends Pizza {
     @Override

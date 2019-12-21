@@ -1,4 +1,4 @@
-package com.chang.algorithm.hanshuping_designPatterns.absfactory.simplefactory.pizzastore.order;
+package com.chang.algorithm.hanshuping_designPatterns.facotry.simplefactory.pizzastore.order;
 
 /**
  * 简单工厂模式

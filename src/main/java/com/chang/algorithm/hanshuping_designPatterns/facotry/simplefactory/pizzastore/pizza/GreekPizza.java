@@ -1,4 +1,4 @@
-package com.chang.algorithm.hanshuping_designPatterns.absfactory.simplefactory.pizzastore.pizza;
+package com.chang.algorithm.hanshuping_designPatterns.facotry.simplefactory.pizzastore.pizza;
 
 public class GreekPizza extends Pizza {
 

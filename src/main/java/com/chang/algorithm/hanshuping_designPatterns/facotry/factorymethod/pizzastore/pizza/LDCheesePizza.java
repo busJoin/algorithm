@@ -1,6 +1,6 @@
-package com.chang.algorithm.hanshuping_designPatterns.absfactory.pizzastore.pizza;
+package com.chang.algorithm.hanshuping_designPatterns.facotry.factorymethod.pizzastore.pizza;
 
-public class LDCheesePizza extends Pizza {
+public class LDCheesePizza extends Pizza{
 
     @Override
     public void prepare() {

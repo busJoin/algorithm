@@ -1,29 +1,34 @@
-package com.chang.algorithm.hanshuping_designPatterns.absfactory.simplefactory.pizzastore.order;
+package com.chang.algorithm.hanshuping_designPatterns.facotry.absfactory.pizzastore.order;
 
-import com.chang.algorithm.hanshuping_designPatterns.absfactory.simplefactory.pizzastore.pizza.Pizza;
+import com.chang.algorithm.hanshuping_designPatterns.facotry.absfactory.pizzastore.pizza.Pizza;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class OrderPizza2 {
-    Pizza pizza = null;
-    String orderType = "";
-    // 构造器
-    public OrderPizza2() {
+public class OrderPizza {
+    AbsFactory factory;
 
+    // 构造器
+    public OrderPizza(AbsFactory factory) {
+        setFactory(factory);
+    }
+
+    private void setFactory(AbsFactory factory) {
+        Pizza pizza = null;
+        String orderType = ""; // 用户输入
+        this.factory = factory;
         do {
             orderType = getType();
-            pizza = SimpleFactory.createPizza2(orderType);
-
-            // 输出pizza
-            if (pizza != null) { // 订购成功
+            // factory 可能是北京的工厂子类，也可能是伦敦的工厂子类
+            pizza = factory.createPizza(orderType);
+            if (pizza != null) { // 订购ok
                 pizza.prepare();
                 pizza.bake();
                 pizza.cut();
                 pizza.box();
             } else {
-                System.out.println(" 订购披萨失败 ");
+                System.out.println("订购失败");
                 break;
             }
         } while (true);
