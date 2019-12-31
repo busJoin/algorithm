@@ -21,16 +21,16 @@ public class TestGame {
     @Test
     public void sort(){
         Map<Integer,String> map = new HashMap<>();
-        map.put(1,"1.15cp");
-        map.put(2,"38.5cp");
-        map.put(3,"2.98co");
-        map.put(4,"1.18cp");
-        map.put(5,"479.19cp");
-        map.put(6,"17.29cp");
-        map.put(7,"56.42cp");
-        map.put(8,"140.51cp");
-        map.put(9,"293,88cq");
-        map.put(10,"334.74cp");
+        map.put(1,"12.76cr");
+        map.put(2,"22.63cr");
+        map.put(3,"742.51cp");
+        map.put(4,"119.75cq");
+        map.put(5,"239.55cp");
+        map.put(6,"8.65cq");
+        map.put(7,"28.19cp");
+        map.put(8,"70.14cp");
+        map.put(9,"146.94cq");
+        map.put(10,"167.23cp");
         List<Integer> readed = new ArrayList<>();
         List<String> list = new ArrayList<>();
         for (int i=1;i<11;i++){
