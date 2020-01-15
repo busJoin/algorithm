@@ -1,5 +1,7 @@
 package com.chang;
 
+import org.junit.Test;
+
 import javax.crypto.KeyAgreement;
 import java.math.BigInteger;
 import java.security.KeyFactory;
@@ -8,6 +10,9 @@ import java.security.KeyPairGenerator;
 import java.security.PublicKey;
 import java.security.spec.NamedParameterSpec;
 import java.security.spec.XECPublicKeySpec;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 
 /**
  * @User: chang
@@ -31,4 +36,8 @@ public class TestSecret {
         byte[] secret = ka.generateSecret();
 
     }
+
+
+
+
 }
