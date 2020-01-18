@@ -17,10 +17,17 @@ public class Test0215 {
     @Test
     public void test() {
         int[] nums = {3, 2, 3, 1, 2, 4, 5, 5, 6};
-        int i = findKthLargest(nums, 4);
+        int i=0;
+        i = findKthLargest(nums, 4);
         System.out.println(i);
     }
 
+    /**
+     * 抄的方法
+     * @param nums
+     * @param k
+     * @return
+     */
     public int findKthLargest(int[] nums, int k) {
         // init heap 'the smallest element first'
         PriorityQueue<Integer> heap =
